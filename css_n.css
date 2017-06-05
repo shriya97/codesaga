@@ -1,0 +1,449 @@
+/*#body_b
+{
+	background-size: 2100px 1800px;
+    background-repeat: repeat;
+}*/
+#rules
+{
+	position:relative;
+	/*top:30px;
+	left:50px;*/
+	width:840px;
+	height:800px;
+	padding: 25px 10px 10px 25px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 100px;
+	border: 3px solid black;
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#body_b_s
+{
+	text-align:center;
+	align:center;
+	background-size: 2000px 1500px;
+    background-repeat: no-repeat;
+}
+#button_r
+{  
+    border: 2px solid black;
+	background:#228B22;
+	color:white;
+	width:125px;
+	height:25px;
+}
+#button_w
+{ 
+	border: 2px solid black;
+	background:#bf2225;
+	color:white;
+	width:125px;
+	height:25px;
+	text-align:center;
+	/*buttons ko center align*/
+}
+#button_n
+{
+	border: 2px solid black;
+	background:#b5b1b1;
+	color:white;
+	width:125px;
+	height:25px;
+	text-align:center;
+}
+#button_b
+{
+	border: 2px solid black;
+	background:#F0E68C;
+	/*background: #DAA520 ;*/
+	color:Blue;
+	width:130px;
+	height:30px;
+}
+#button_f
+{
+	border: 2px solid black;
+	background:#f9a04d;
+	/*background: #DAA520 ;*/
+	color:Blue;
+	width:150px;
+	height:40px;
+	font-size:15px;
+}
+#button_l
+{   
+    border: 2px solid black;
+	width:150px;
+	height:35px;
+	background:#124363;
+	font-size:20px;
+	color:white;
+	text-align:center;
+}
+#button_logout
+{
+        width:170px;
+        height:50px;
+        color:black;
+        background:white;
+       	border: 3px solid black;
+        font-size:20px;
+        text-align:center;
+        border-radius:17px;
+}
+#log
+{
+    /*width: 20px;*/
+	float:right;
+	padding: 10px 25px;
+	margin: 860px -220px 0px 0px;
+	border-radius:20px;
+	style:none;
+	text-align: center;
+}
+#div2
+{
+	position:relative;
+	width: 130px;
+	height:780px;
+	float:right;
+	padding: 30px 50px;
+	margin: 0px 50px 0px 0px;
+	border: 4px solid #8e1d11;
+	/*background:#DDE4E1	*/;
+	background:white;
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+	style:none;
+	text-align:center;
+}
+
+#button_in
+{
+	width:170px;
+	height:37px;
+	font-size:18;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px;
+	text-align: center;
+}
+#button_s
+{
+	background:black;
+	color:white;
+	width:180px;
+	height:50px;
+	border-radius:20px;
+}
+#div1
+{  
+    width: 60%;
+	position:relative;
+	padding:0px 0px;
+	float:left;
+
+}
+#l1q1
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:400px;
+	height:400px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#l1q2
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:400px;
+	height:400px;
+	padding: 15px 15px 0px 20px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#l1q3
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:550px;
+	height:550px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#l1q4
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:550px;
+	height:570px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#l1q5
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:550px;
+	height:600px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#l2q1
+{
+position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:550px;
+	height:500px;
+	padding: 15px 15px 0px 20px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+
+#l2q2
+{
+position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:550px;
+	height:500px;
+	padding: 15px 15px 0px 15px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+
+#l2q4
+{
+position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:600px;
+	height:530px;
+	padding: 15px 15px 0px 15px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+
+#l2q5
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:500px;
+	height:1100px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+
+#l3q1
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:600px;
+	height:600px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#l3q2
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:530px;
+	height:670px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#l3q3
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:500px;
+	height:600px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#l3q4
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:450px;
+	height:800px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+#l3q5
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:550px;
+	height:800px;
+	padding: 30px 0px 0px 50px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+
+#b1
+{
+	position:relative;
+	/*bottom:150px;
+	left:150px;*/
+	width:550px;
+	height:350px;
+	padding: 15px 20px 0px 20px;
+	/*top-margin: 50px;*/
+	margin:0px 0px 0px 150px;
+	border: 3px solid black;
+	/*background:DarkGrey;    */
+	background:white;
+	/* thoda left margin se hatana h; thoda neeche lana h and box ka width chota karna h  */
+	border-radius:20px;
+	box-shadow: 7px 7px 7px;
+}
+
+pre
+{
+tab-size: 8;
+}
+
+#button_r_s
+{  
+    border: 2px solid black;
+	background:#228B22;
+	color:white;
+	width:175px;
+	height:45px;
+	font-size:20;
+}
+#button_n_s
+{
+	border: 2px solid black;
+	background:grey;
+	color:white;
+	width:175px;
+	height:45px;
+	text-align:center;
+	font-size:20;
+}
+#button_r_b
+{  
+    border: 2px solid black;
+	background:#228B22;
+	color:white;
+	width:60px;
+	height:45px;
+	font-size:13;
+}
+#button_n_b
+{
+	border: 2px solid black;
+	background:grey;
+	color:white;
+	width:60px;
+	height:45px;
+	text-align:center;
+	font-size:13;
+}
+

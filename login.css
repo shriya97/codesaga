@@ -1,0 +1,40 @@
+/*#body_b{
+
+   background-size: 1800px 1200px;
+    background-repeat: no-repeat;
+}*/
+#Sign-In{
+margin-top:100px;
+margin-left:350px;
+border:4px; 
+padding:30px 55px;
+background:#105b72;
+width:400px;
+border-radius:30px;
+box-shadow: 7px 7px 6px;
+}
+#button{
+margin-top:20px;
+border-radius:10px;
+width:190px;
+height:45px;
+background:#FFFF;
+font-weight:bold;
+font-size:20px
+}
+#button_in
+{
+	width:230px;
+	height:30px;
+}
+
+#Sign-up{
+margin-top:100px;
+margin-left:350px;
+border:4px ;
+padding:30px 55px;
+background:#105b72;
+width:400px;
+border-radius:30px;
+box-shadow: 7px 7px 6px;
+}

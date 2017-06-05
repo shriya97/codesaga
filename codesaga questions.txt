@@ -1,0 +1,382 @@
+RULES
+
+1.	The game has 3 levels with 5 questions each. 
+
+2.	To clear current level & unlock next level, you need to answer the 5th question, which can be cracked using answers of first 4 questions.
+
+3.	Aim is to crack the final destination which will be visible only after clearing all 3 levels.
+
+4.	Clearing all the questions of one level will lead to a bonus question, which will give you a clue to the final destination.
+
+5.	The team that cracks the final destination first will be the winner.
+
+6.	Assume that all the necessary header files are included.
+7.	While giving the answer to any question, input in lower caps only. 
+8.	Time limit of game: 1 hour.
+9.	Tie breaker: In case more than 1 team cracks the final destination in same duration then the winner will be the team with more number of correct answers.
+
+level 1
+
+Q1.TCS - Beyond the Obvious
+
+
+Q2.Windows XP – Do More with Less
+
+
+
+Q3.This Multinational is well-known for designing and manufacturing. 
+It's logo looks like an abstract of the famous Gold Gate bridge 
+in San Francisco. By choosing this design, the company managed to both 
+convey what they do and where they are located at.
+
+ANS:Cisco
+
+Q4.3. The first ever post Google made on Twitter in 2009 was: 01100110 01100101 01100101 01101100 01101001 01101110 01100111 00100000 01101100 01110101 01100011 01101011 01111001 00001010. Crack it if you can 
+! It’s a google’s one of the most quirkiest and classic feature.
+
+
+Ans: feeling lucky
+
+
+Q5.
+#include<stdio.h>
+//Kindly note all elements of the string array are in lower case
+
+int main()
+
+{
+
+    	static char *s[] = {/*This array consists of 4 strings that are answers to previous 4 questions (taken in order)*/};
+  
+  	char **ptr[] = {s+2, s+3, s, s+1}, ***p;
+
+	p = ptr;
+++p;
+
+	char *str=**p+1;
+
+	printf("%c",str[0]);
+	p--;
+	str=**ptr+3;
+
+    	printf("%s",str);
+	p+=2;
+
+	str=**p+3;
+
+    	printf("%c\n",str[0]);
+
+    	return 0;
+
+}
+
+
+//OUTPUT: eco
+
+
+level 2
+
+Q1.2. The name 'Google' is actually derived from the mathematical term y which is basically 1 with a 100 zeros following it
+
+
+
+Ans: 'googol'
+
+
+Q2.Whatever we are talking about has beautifully integrated the ideas of analog and digital technology into one, 
+The first half representing an analog wave, and the 
+other half displays binary from the digital world.
+=VAIO
+
+Q3.Try and crack the connection between what you see and what you know!+ pic 8020
+=Binary
+
+Q4. “When we created this feature X, we thought it would be cool to have a feature without any specific purpose. People interpret X in many different ways, and we encourage you to come up with your own meanings.”   -?Mark Zuckerberg during a live Facebook webinar. 
+What is Mark talking about?
+
+
+
+Ans: Poke
+
+Q5.#include<stdio.h>
+//Kindly note: All the strings used in the code are in lower case
+
+int fun1(char *ch)
+
+
+{
+
+	int j=0, i, d=0;
+
+
+    	char str[]=/*Answer  to Q1 of this level*/;
+
+    	while(j<3)
+
+
+	{
+
+
+    		for(i=0; i<7; ++i)
+
+		{
+		
+
+ if(str[i]<=ch[j])
+	
+
+                 { 
+
+            d=(d*10)+i+1;
+		 
+
+             break;
+
+ 
+	                 }
+	
+        else
+
+	        {
+           d=d*10+i-1;
+break;
+             }
+
+     	}
+
+        
+	if(i==7)
+	
+
+            d=(d*10)+28;
+
+           
+
+        	j++;
+
+   
+}
+
+    
+return d;
+
+
+}
+
+
+int main()
+
+
+{
+	int a[3],i,t=0;
+
+	a[0]=fun1(/*Answer to Q2 of this level*/);
+
+	a[1]=fun1(/*Answer to Q3 of this level*/);
+
+	a[2]=fun1(/*Answer to Q4 of this level*/);
+
+	for( i=0;i<3;i++)
+
+	{   a[i]=(a[i]*10)+28;
+	
+    t+=a[i];
+}
+
+
+	printf("\n%d",t);
+
+
+}
+
+
+//Output:1214
+
+
+
+level 3
+
+Q1.X is often known as the french version of the Y keyboard. To drop the biggest clue, if you were to immediately switch from Y to X, you'd
+type the following: 
+"Qll the keys qre in different plqces1. Zell, this is going to tqke q lot longer thqn I thought". 
+Identify X and Y.
+
+Answer: X- Azerty, Y- Qwerty
+
+Q2.
+1. #include<stdio.h>
+
+2. #include<ctype.h>
+
+3. #include<malloc.h>
+
+4. void main (int argc, char *argv[])
+
+5. {
+
+6. char *input=(char *) malloc((sizeof(char)*10));
+
+7.  input=argv[1];
+
+8.  int date= atoi(input);
+
+9.  int d,m,y;
+
+10.  y= date%10000;
+
+11.  date=date/10000;
+
+12.  m=date%100;
+
+13.  date=date/100;
+
+14.  d=date;
+
+15.  y+=m;
+
+16.  m+=d;
+
+17.  d*=8;
+
+18.  printf("%d%d",d,y%100);
+
+19. }
+  
+Input:
+
+The above program takes a date as command line input. 
+ 
+ But, the input is is in encrypted form.
+  D72E00
+
+
+
+Ans 11226
+
+
+Q3.
+ #include<stdio.h>
+
+int main()
+{
+
+int a = 320;
+
+char *ptr;
+
+ptr =( char *)&a;
+
+printf("%d ",*ptr);
+
+return 0;
+
+}
+
+
+
+Ans 64
+
+
+
+Q4.
+#include<stdio.h>
+ 
+int cmpfunc (const void * a, const void * b)
+ 
+{ 
+	
+return ( *(int*)a - *(int*)b );
+ 
+} 
+
+
+
+int main() 
+{
+ 
+ // your code goes here 
+
+ int n=5;
+ 
+int arr[5]={1685,2456,478,1897,9765};
+ 
+
+ qsort(arr,n,sizeof(int),cmpfunc); 
+
+ if(n%3==0) 
+
+ { 
+
+ printf("%d",arr[n/3]+arr[n/3+1]);
+ 
+ }
+ 
+ else 
+ printf("%d",arr[n/3]); 
+
+ return 0;
+ 
+}
+
+
+Ans 1685
+
+
+
+
+Q5.
+#include<stdio.h>
+
+int fibo(int n)
+{ int a=0,b=1,i=1,c=0;
+  while(c<n)
+  	{ c=a+b;
+  	  a=b;
+  	  b=c;
+  	  i++;
+
+	  }
+
+  return i;
+}
+
+
+void main(){
+   char a[]={'!','$','%','/','?'};
+
+   int i,x=0,sum=0;
+
+   for(i=0;i<5;i++)
+   {
+       x+=(int)a[i];
+       printf("\n%d a[i]",(int)a[i]);
+   }
+   printf("\n%d x before shift",x);
+   x=x>>2;
+      printf("\n%d x after shift",x);
+
+   while(x>0)
+      {	sum+=x%10;
+        x/=10;
+   		}
+     printf("\n%d sum of digits",sum);
+
+  printf("\n%d\n",fibo(sum));
+}
+
+//Ans 7
+	
+bonus 1:
+Charity , loylty , tolerance and wit.
+//Abstract
+bonus 2:
+A carpenter knows to build it, while a IT professional fixes it.
+//window
+bonus 3:
+These are used for developing almost anything. <br> It is a single utility program, a set of software <br> 
+routines that are used to develop and maintain applications and database.
+//toolkit
+final ques:
+You have come so far, <br> You have cracked all the parts,
+	What lays ahead of you is a collection of parts.
+" \u0073\u0077\u0069\u006e\u0067 "
